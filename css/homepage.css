@@ -1,0 +1,150 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.for {
+display: flex;
+justify-content: center;
+column-gap: 5%;
+text-align: center;
+flex-wrap: wrap;
+margin-top: 5vh;
+color: black;
+}
+.for img {
+height: 30vh;
+padding-top: 8%;
+border: none;
+border-radius: 2%;
+}
+.for-1 {
+    width: 30vh;
+}
+.events-1 {
+    background-color: #417985;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.events-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 2rem;
+}
+.events-3 {
+width: 30vh;
+text-align: left;
+}
+.events-3 img {
+    height: 30vh;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2%;
+}
+.background-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    height: fit-content;
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+.popular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5%;
+    flex-direction: row;
+    row-gap: 3em;
+}
+.popular img {
+    height: 30vh;
+    border-radius: 2%;
+}
+.pop {
+width: 30vh;
+}
+.button, .button-1 {
+    text-decoration: none;
+    border: none;
+    border-radius: 4%;
+}
+.button {
+    background-color: #417985;
+    color: white;
+    padding: 3%;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.m-contr, .kids {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 8em;
+}
+.box-1 img {
+    height: 33vh;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-bottom: -4px;
+}
+.box-2 {
+    background-color: #9D5A34;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5em;
+    border-radius: 1%;
+}
+.button-1 {
+    background-color: white;
+    color: black;
+    padding: 2%;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.b-1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 430px) {
+.for img {
+    height: 20vh;
+}
+.for-1 {
+    width: 20vh;
+}
+.events-3 {
+    width: 20vh;
+    text-align: center;
+}
+.events-3 img {
+    height: 20vh;
+}
+.popular {
+    text-align: center;
+}
+.popular img {
+    height: 20vh;
+}
+.pop {
+    text-align: center;
+    width: 20vh;
+}
+.box-1 img {
+    height: 25vh;
+}
+
+}

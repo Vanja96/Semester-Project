@@ -1,1 +1,119 @@
+.header-l, .background {
+    display: none;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-image: url('/rsm-background-s.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer {
+    background: #444444;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
 
+}
+.footer-top {
+    display: flex;
+    flex-direction: column;
+}
+.links a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    line-height: 2.1rem;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.logo img {
+    width: 120px;
+    margin-left: 35px;
+}
+.head {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+.copyright img {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+.header {
+    display: none;
+}
+.background-image {
+    background-image: url('/rsm-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.header-l {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.header-l img {
+    width: 100%;
+    margin-left: 1em;
+} 
+.navbar a {
+    font-size: 1.67rem;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: "Akshar", sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+} 
+.navbar a:hover {
+    text-decoration: underline;
+}
+.background {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    height: 1000px; /* remove later if possible*/
+    margin-left: 10%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.footer {
+    font-size: 1.2rem;
+}
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo {
+    margin-top: 2.7em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo img {
+    width: 50%;
+}
+.copyright img {
+    width: 30px;
+    height: 30px;
+}
+
+}

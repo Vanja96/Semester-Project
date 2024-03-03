@@ -1,0 +1,36 @@
+.background {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.ex-list, .ev-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+row-gap: 5em;
+text-align: left;
+}
+.background img {
+    height: 20vh;
+    border-radius: 2%;
+}
+.exhibition, .event {
+    width: 20vh;
+}
+
+
+@media screen and (min-width: 1000px) {
+    
+.background {
+    margin: 2rem;
+}
+.ev-list {
+    justify-content: center;
+    column-gap: 2em;
+}
+
+}
+

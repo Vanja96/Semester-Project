@@ -1,0 +1,46 @@
+.background {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+}
+.contact, .contribution {
+    margin: 3rem;
+}
+.heading {
+    margin-bottom: 2rem;
+    margin-top: 0%;
+}
+.heading-images {
+    display: flex;
+    justify-content: center;
+}
+.heading-images img {
+    border-radius: 50%;
+    height: 12vh;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.support, .volunteer, .internships {
+    margin-top: 2em;
+}
+.support img { 
+    height: 5vh;
+}
+.volunteer img {
+    height: 5vh;
+}
+.internships img {
+    height: 5vh;
+}
+
+@media screen and (min-width: 1000px) {
+    
+.contact, .contribution {
+    margin: 5rem;
+}
+.heading-images img {
+    height: 15vh;;
+}
+
+}
